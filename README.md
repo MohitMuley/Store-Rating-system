@@ -99,21 +99,14 @@ A web application that allows users to submit ratings for stores. The platform s
 ## Installation
 
 ### Backend
-
-------> npm install express pg bcryptjs jsonwebtoken dotenv cors
-------> npm run dev
+**npm install express pg bcryptjs jsonwebtoken dotenv cors**
+**npm run dev**
 
 ### frontend
 
--------> npm install react react-dom react-router-dom axios 
--------> npm tailwindcss postcss autoprefixer
--------> npx tailwindcss init -p
--------> npm start
+ **npm install react react-dom react-router-dom axios**
+ **npm tailwindcss postcss autoprefixer**
+ **npx tailwindcss init -p**
+ **npm start**
 
 
-### .env file
-
-PORT=5000
-DATABASE_URL=postgres://username:password@localhost:5432/dbname
-JWT_SECRET=your_jwt_secret
-JWT_EXPIRES_IN=1d
